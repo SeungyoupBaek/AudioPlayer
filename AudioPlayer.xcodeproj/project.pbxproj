@@ -21,6 +21,9 @@
 		00D3631718879CAF005C3410 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D362F918879CAF005C3410 /* UIKit.framework */; };
 		00D3631F18879CAF005C3410 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00D3631D18879CAF005C3410 /* InfoPlist.strings */; };
 		00D3632118879CAF005C3410 /* AudioPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D3632018879CAF005C3410 /* AudioPlayerTests.m */; };
+		00D3636E1887A460005C3410 /* music1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00D3636B1887A460005C3410 /* music1.mp3 */; };
+		00D3636F1887A460005C3410 /* music2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00D3636C1887A460005C3410 /* music2.mp3 */; };
+		00D363701887A460005C3410 /* music3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00D3636D1887A460005C3410 /* music3.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		00D3631C18879CAF005C3410 /* AudioPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioPlayerTests-Info.plist"; sourceTree = "<group>"; };
 		00D3631E18879CAF005C3410 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00D3632018879CAF005C3410 /* AudioPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerTests.m; sourceTree = "<group>"; };
+		00D3636B1887A460005C3410 /* music1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music1.mp3; sourceTree = "<group>"; };
+		00D3636C1887A460005C3410 /* music2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music2.mp3; sourceTree = "<group>"; };
+		00D3636D1887A460005C3410 /* music3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music3.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 		00D362FB18879CAF005C3410 /* AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				00D3636B1887A460005C3410 /* music1.mp3 */,
+				00D3636C1887A460005C3410 /* music2.mp3 */,
+				00D3636D1887A460005C3410 /* music3.mp3 */,
 				00D3630418879CAF005C3410 /* AppDelegate.h */,
 				00D3630518879CAF005C3410 /* AppDelegate.m */,
 				00D3630718879CAF005C3410 /* Main.storyboard */,
@@ -230,6 +239,9 @@
 			files = (
 				00D3630E18879CAF005C3410 /* Images.xcassets in Resources */,
 				00D3630018879CAF005C3410 /* InfoPlist.strings in Resources */,
+				00D363701887A460005C3410 /* music3.mp3 in Resources */,
+				00D3636E1887A460005C3410 /* music1.mp3 in Resources */,
+				00D3636F1887A460005C3410 /* music2.mp3 in Resources */,
 				00D3630918879CAF005C3410 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
